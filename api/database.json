@@ -1,0 +1,57 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "name": "Market",
+      "description": "But tomatos",
+      "placeId": "1",
+      "id": 2
+    },
+    {
+      "name": "name",
+      "description": "see something",
+      "placeId": "1",
+      "id": 3
+    },
+    {
+      "name": ":)",
+      "description": ":):)",
+      "placeId": 1,
+      "id": 4
+    },
+    {
+      "name": ":)",
+      "description": ":)",
+      "placeId": 2,
+      "id": 5
+    },
+    {
+      "name": "tgrs",
+      "description": "4wtegs",
+      "placeId": 2,
+      "id": 7
+    },
+    {
+      "name": "ewg",
+      "description": "gefa",
+      "placeId": 1,
+      "id": 8
+    }
+  ]
+}

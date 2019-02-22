@@ -1,8 +1,14 @@
-import sayHello from "./hello"
-import sayGoodbye from "./goodbye"
-import SandwichMaker from "./sandwichMaker"
+import interestForm from "./interestsHTML";
+import NewInterestEventListener from "./addNewInterestEventListener";
+import DisplayInterests from "./addtoDOM";
+import deleteButtonEventListener from "./deleteEventListener";
 
-sayHello()
-sayGoodbye()
 
-SandwichMaker.placeOrder("rye", "capicola", "provolone")
+
+interestForm()
+
+NewInterestEventListener()
+
+DisplayInterests()
+
+deleteButtonEventListener()
