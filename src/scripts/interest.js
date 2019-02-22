@@ -1,11 +1,12 @@
 const InterestsHTML = (interest) => {
     return `
-    <section id = "${interest.id}">
-    <p> Destination: ${interest.place.name}
-    <p> Name: ${interest.name}</p>
-    <p> Description: ${interest.description} </p>
+    <section id = "${interest.id}" class ="interest">
+    <h1> Destination: ${interest.place.name} </h1>
+    <h3> Name: ${interest.name}</h3>
+    <h3> Description: ${interest.description} </h3>
 
 <button id = "deletebutton-${interest.id}">Delete Interest</button>
+</section>
 `
 
 }
